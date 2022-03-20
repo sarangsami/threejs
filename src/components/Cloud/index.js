@@ -7,12 +7,12 @@ title: Cloud & Sun Lowpoly
 */
 
 import React, { useRef } from 'react'
-import { useGLTF, useAnimations } from '@react-three/drei'
+import { useGLTF } from '@react-three/drei'
 
 export default function Model({ ...props }) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/cloud.gltf')
-  const { actions } = useAnimations(animations, group)
+  const { nodes, materials } = useGLTF('/cloud.gltf')
+ 
   return (
     <group ref={group} {...props} dispose={null}>
       <group>
