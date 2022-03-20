@@ -27,7 +27,7 @@ const App = () => {
       <AnimatedSphere/>
       </Suspense>
     </Canvas>
-    <Canvas className="canvas">
+    {/* <Canvas className="canvas">
     <OrbitControls enableZoom={false} />
       <ambientLight intensity={0.5} />
       <directionalLight position={[-2, 5, 2]} intensity={1} />
@@ -42,7 +42,7 @@ const App = () => {
       <Suspense fallback={null}>
       <Thinkpad/>
       </Suspense>
-    </Canvas>
+    </Canvas> */}
     </>
    
   );
