@@ -1,7 +1,7 @@
 {
   "name": "threejs",
   "version": "0.1.0",
-  "homepage": "https://sarangsami.github.io",
+  "homepage": "https://sarangsami.github.io/threejs/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^8.18.5",
